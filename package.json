@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-bdd-playwright",
+  "name": "ecommerce-ui-bdd-cucumber",
   "version": "1.0.0",
   "private": true,
   "description": "BDD acceptance tests (Cucumber + Playwright + TypeScript) for an ecommerce web app",
