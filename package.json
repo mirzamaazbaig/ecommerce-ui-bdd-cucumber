@@ -1,0 +1,21 @@
+{
+  "name": "ecommerce-bdd-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BDD acceptance tests (Cucumber + Playwright + TypeScript) for an ecommerce web app",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:smoke": "cucumber-js --tags @smoke",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "@types/pg": "^8.23.1",
+    "pg": "^8.23.1",
+    "playwright": "^1.63.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
