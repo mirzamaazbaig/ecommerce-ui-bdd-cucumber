@@ -1,5 +1,7 @@
 # E-Commerce UI Acceptance Tests: Cucumber, Playwright, TypeScript
 
+[![Acceptance tests](https://github.com/mirzamaazbaig/ecommerce-ui-bdd-cucumber/actions/workflows/acceptance-tests.yml/badge.svg)](https://github.com/mirzamaazbaig/ecommerce-ui-bdd-cucumber/actions/workflows/acceptance-tests.yml)
+
 Behaviour-driven acceptance tests for the web UI of a React, Express and PostgreSQL online shop ([application under test](https://github.com/mirzamaazbaig/Ecom)). Requirements are written as Gherkin scenarios that a product owner can read; step definitions drive a real browser with Playwright.
 
 16 scenarios, 97 steps, running in parallel.
