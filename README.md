@@ -2,6 +2,8 @@
 
 [![Acceptance tests](https://github.com/mirzamaazbaig/ecommerce-ui-bdd-cucumber/actions/workflows/acceptance-tests.yml/badge.svg)](https://github.com/mirzamaazbaig/ecommerce-ui-bdd-cucumber/actions/workflows/acceptance-tests.yml)
 
+![CI run: all jobs passing](docs/images/ci-run.png)
+
 Behaviour-driven acceptance tests for the web UI of a React, Express and PostgreSQL online shop ([application under test](https://github.com/mirzamaazbaig/ecommerce-playwright-e2e-tests)). Requirements are written as Gherkin scenarios that a product owner can read; step definitions drive a real browser with Playwright.
 
 16 scenarios, 97 steps, running in parallel.
